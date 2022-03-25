@@ -5,43 +5,43 @@
 #define _DOWN__ &kp DOWN
 #define _RIGHT_ &kp RIGHT
 
-#define ___A___ AS(A)
-#define ___B___ AS(B)
-#define ___C___ AS(C)
-#define ___D___ AS(D)
-#define ___E___ AS(E)
-#define ___F___ AS(F)
-#define ___G___ AS(G)
-#define ___H___ AS(H)
-#define ___I___ AS(I)
-#define ___J___ AS(J)
-#define ___K___ AS(K)
-#define ___L___ AS(L)
-#define ___M___ AS(M)
-#define ___N___ AS(N)
-#define ___O___ AS(O)
-#define ___P___ AS(P)
-#define ___Q___ AS(Q)
-#define ___R___ AS(R)
-#define ___S___ AS(S)
-#define ___T___ AS(T)
-#define ___U___ AS(U)
-#define ___V___ AS(V)
-#define ___W___ AS(W)
-#define ___X___ AS(X)
-#define ___Y___ AS(Y)
-#define ___Z___ AS(Z)
+#define ___A___ &as A
+#define ___B___ &as B
+#define ___C___ &as C
+#define ___D___ &as D
+#define ___E___ &as E
+#define ___F___ &as F
+#define ___G___ &as G
+#define ___H___ &as H
+#define ___I___ &as I
+#define ___J___ &as J
+#define ___K___ &as K
+#define ___L___ &as L
+#define ___M___ &as M
+#define ___N___ &as N
+#define ___O___ &as O
+#define ___P___ &as P
+#define ___Q___ &as Q
+#define ___R___ &as R
+#define ___S___ &as S
+#define ___T___ &as T
+#define ___U___ &as U
+#define ___V___ &as V
+#define ___W___ &as W
+#define ___X___ &as X
+#define ___Y___ &as Y
+#define ___Z___ &as Z
 
-#define ___0___ AS(N0)
-#define ___1___ AS(N1)
-#define ___2___ AS(N2)
-#define ___3___ AS(N3)
-#define ___4___ AS(N4)
-#define ___5___ AS(N5)
-#define ___6___ AS(N6)
-#define ___7___ AS(N7)
-#define ___8___ AS(N8)
-#define ___9___ AS(N9)
+#define ___0___ &as N0
+#define ___1___ &as N1
+#define ___2___ &as N2
+#define ___3___ &as N3
+#define ___4___ &as N4
+#define ___5___ &as N5
+#define ___6___ &as N6
+#define ___7___ &as N7
+#define ___8___ &as N8
+#define ___9___ &as N9
 
 #define _ARING_ &kp RA(A)
 #define _OSLSH_ &kp RA(O)
