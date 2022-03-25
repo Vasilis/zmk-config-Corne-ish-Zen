@@ -11,13 +11,12 @@
 #include "keycodes.h"
 #include "wrappers.h"
 
-/
-{
+/ {
         behaviors {
                 as: auto_shift {
                         compatible = "zmk,behavior-hold-tap";
                         label = "AUTO_SHIFT";
-                        #binding - cells = <2>;
+                        #binding-cells = <2>;
                         tapping_term_ms = <210>;
                         quick_tap_ms = <0>;
                         flavor = "tap-preferred";
@@ -45,7 +44,7 @@
                 };
 
                 lower_layer {
-                        label = "LOWER";
+                        label = "NUMBER";
                         // -------------------------------------------     -------------------------------------------
                         // |  ESC |   1  |   2  |   3  |   4  |   5  |     |   6  |   7  |   8  |   9  |   0  |  `   |
                         // |LCTRL |  F1  |  F2  |  F3  |  F4  |  F5  |     |  F6  |  F7  |  F8  |  F9  | F10  |  "   |
@@ -61,7 +60,7 @@
                 };
 
                 raise_layer {
-                        label = "RAISE";
+                        label = "SYMBOL";
                         // -------------------------------------------     ------------------------------------------
                         // |  TAB |  !   |  @   |  #   |  $   |  %   |     |  ^   |  &   |  *   |  (   |  )   |     |
                         // |LCTRL |      |      |      |      |      |     |      | left |  up  | down |right |     |
