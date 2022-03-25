@@ -11,8 +11,22 @@
 #include "keycodes.h"
 #include "wrappers.h"
 
+#define AS(keycode) &as LS(keycode) keycode
+
 /
 {
+        behaviors {
+                as: auto_shift {
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "AUTO_SHIFT";
+                        #binding - cells = < 2>;
+                        tapping_term_ms = <210>;
+                        quick_tap_ms = <0>;
+                        flavor = "tap-preferred";
+                        bindings = <&kp>, <&kp>;
+                };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -33,23 +47,23 @@
                 };
 
                 lower_layer {
-                        label = "LOWER";
+                        label = "NUMBER";
                         // -------------------------------------------     -------------------------------------------
                         // |  ESC |   1  |   2  |   3  |   4  |   5  |     |   6  |   7  |   8  |   9  |   0  |  `   |
-                        // |      |  F1  |  F2  |  F3  |  F4  |  F5  |     |  F6  |  F7  |  F8  |  F9  | F10  |  "   |
-                        // |      |      |      |      |      |      |     |  =   |  +   |  {   |  }   | "|"  |  ~   |
-                        //                      | LWR  |  GUI | SPC  |     | ENT  | BSPC |RAISE |
+                        // |LCTRL |  F1  |  F2  |  F3  |  F4  |  F5  |     |  F6  |  F7  |  F8  |  F9  | F10  |  "   |
+                        // |LSHFT |      |      |      |      |      |     |  =   |  +   |  {   |  }   | "|"  |  ~   |
+                        //                      | LWR  |  GUI | SPC  |     | ENT  | DEL  |RAISE |
                         //                      ----------------------     ----------------------
                         bindings = <
                         __ESC__ ________________NUMBER_LEFT________________  ________________NUMBER_RIGHT_______________ _GRAVE_
                         _LCTRL_ _________________LOWER_L2__________________  _________________LOWER_R2__________________ _DQUOT_
                         _LSHFT_ _________________LOWER_L3__________________  _________________LOWER_R3__________________ _TILDE_
-                                                  _______  _LGUI__  _SPACE_  _ENTER_  _BKSPC_  _______
+                                                  _______  _LGUI__  _SPACE_  _ENTER_  __DEL__  _______
                         >;
                 };
 
                 raise_layer {
-                        label = "RAISE";
+                        label = "SYMBOL";
                         // -------------------------------------------     ------------------------------------------
                         // |  TAB |  !   |  @   |  #   |  $   |  %   |     |  ^   |  &   |  *   |  (   |  )   |     |
                         // |LCTRL |      |      |      |      |      |     |      | left |  up  | down |right |     |
