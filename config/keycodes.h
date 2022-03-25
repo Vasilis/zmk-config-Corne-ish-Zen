@@ -7,30 +7,30 @@
 
 #define ___A___ &as LS(A) A
 #define ___B___ &as LS(B) B
-#define ___C___ &as LEFT_SHIFT C
-#define ___D___ &as LEFT_SHIFT D
-#define ___E___ &as LEFT_SHIFT E
-#define ___F___ &as LEFT_SHIFT F
-#define ___G___ &as LEFT_SHIFT G
-#define ___H___ &as LEFT_SHIFT H
-#define ___I___ &as LEFT_SHIFT I
-#define ___J___ &as LEFT_SHIFT J
-#define ___K___ &as LEFT_SHIFT K
-#define ___L___ &as LEFT_SHIFT L
-#define ___M___ &as LEFT_SHIFT M
-#define ___N___ &as LEFT_SHIFT N
-#define ___O___ &as LEFT_SHIFT O
-#define ___P___ &as LEFT_SHIFT P
-#define ___Q___ &as LEFT_SHIFT Q
-#define ___R___ &as LEFT_SHIFT R
-#define ___S___ &as LEFT_SHIFT S
-#define ___T___ &as LEFT_SHIFT T
-#define ___U___ &as LEFT_SHIFT U
-#define ___V___ &as LEFT_SHIFT V
-#define ___W___ &as LEFT_SHIFT W
-#define ___X___ &as LEFT_SHIFT X
-#define ___Y___ &as LEFT_SHIFT Y
-#define ___Z___ &as LEFT_SHIFT Z
+#define ___C___ &as LS(C) C
+#define ___D___ &as LS(D) D
+#define ___E___ &as LS(E) E
+#define ___F___ &as LS(F) F
+#define ___G___ &as LS(G) G
+#define ___H___ &as LS(H) H
+#define ___I___ &as LS(I) I
+#define ___J___ &as LS(J) J
+#define ___K___ &as LS(K) K
+#define ___L___ &as LS(L) L
+#define ___M___ &as LS(M) M
+#define ___N___ &as LS(N) N
+#define ___O___ &as LS(O) O
+#define ___P___ &as LS(P) P
+#define ___Q___ &as LS(Q) Q
+#define ___R___ &as LS(R) R
+#define ___S___ &as LS(S) S
+#define ___T___ &as LS(T) T
+#define ___U___ &as LS(U) U
+#define ___V___ &as LS(V) V
+#define ___W___ &as LS(W) W
+#define ___X___ &as LS(X) X
+#define ___Y___ &as LS(Y) Y
+#define ___Z___ &as LS(Z) Z
 
 #define ___0___ &kp N0
 #define ___1___ &kp N1
