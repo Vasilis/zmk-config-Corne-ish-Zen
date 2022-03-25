@@ -5,8 +5,8 @@
 #define _DOWN__ &kp DOWN
 #define _RIGHT_ &kp RIGHT
 
-#define ___A___ &as LEFT_SHIFT A A
-#define ___B___ &as LEFT_SHIFT B B
+#define ___A___ &as LS(A) A
+#define ___B___ &as LS(B) B
 #define ___C___ &as LEFT_SHIFT C
 #define ___D___ &as LEFT_SHIFT D
 #define ___E___ &as LEFT_SHIFT E
