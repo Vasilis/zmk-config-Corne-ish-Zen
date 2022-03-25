@@ -5,32 +5,32 @@
 #define _DOWN__ &kp DOWN
 #define _RIGHT_ &kp RIGHT
 
-#define ___A___ &kp A
-#define ___B___ &kp B
-#define ___C___ &kp C
-#define ___D___ &kp D
-#define ___E___ &kp E
-#define ___F___ &kp F
-#define ___G___ &kp G
-#define ___H___ &kp H
-#define ___I___ &kp I
-#define ___J___ &kp J
-#define ___K___ &kp K
-#define ___L___ &kp L
-#define ___M___ &kp M
-#define ___N___ &kp N
-#define ___O___ &kp O
-#define ___P___ &kp P
-#define ___Q___ &kp Q
-#define ___R___ &kp R
-#define ___S___ &kp S
-#define ___T___ &kp T
-#define ___U___ &kp U
-#define ___V___ &kp V
-#define ___W___ &kp W
-#define ___X___ &kp X
-#define ___Y___ &kp Y
-#define ___Z___ &kp Z
+#define ___A___ &as LSHFT A
+#define ___B___ &as LSHFT B
+#define ___C___ &as LSHFT C
+#define ___D___ &as LSHFT D
+#define ___E___ &as LSHFT E
+#define ___F___ &as LSHFT F
+#define ___G___ &as LSHFT G
+#define ___H___ &as LSHFT H
+#define ___I___ &as LSHFT I
+#define ___J___ &as LSHFT J
+#define ___K___ &as LSHFT K
+#define ___L___ &as LSHFT L
+#define ___M___ &as LSHFT M
+#define ___N___ &as LSHFT N
+#define ___O___ &as LSHFT O
+#define ___P___ &as LSHFT P
+#define ___Q___ &as LSHFT Q
+#define ___R___ &as LSHFT R
+#define ___S___ &as LSHFT S
+#define ___T___ &as LSHFT T
+#define ___U___ &as LSHFT U
+#define ___V___ &as LSHFT V
+#define ___W___ &as LSHFT W
+#define ___X___ &as LSHFT X
+#define ___Y___ &as LSHFT Y
+#define ___Z___ &as LSHFT Z
 
 #define ___0___ &kp N0
 #define ___1___ &kp N1
