@@ -5,32 +5,32 @@
 #define _DOWN__ &kp DOWN
 #define _RIGHT_ &kp RIGHT
 
-#define ___A___ &as LSHFT A
-#define ___B___ &as LSHFT B
-#define ___C___ &as LSHFT C
-#define ___D___ &as LSHFT D
-#define ___E___ &as LSHFT E
-#define ___F___ &as LSHFT F
-#define ___G___ &as LSHFT G
-#define ___H___ &as LSHFT H
-#define ___I___ &as LSHFT I
-#define ___J___ &as LSHFT J
-#define ___K___ &as LSHFT K
-#define ___L___ &as LSHFT L
-#define ___M___ &as LSHFT M
-#define ___N___ &as LSHFT N
-#define ___O___ &as LSHFT O
-#define ___P___ &as LSHFT P
-#define ___Q___ &as LSHFT Q
-#define ___R___ &as LSHFT R
-#define ___S___ &as LSHFT S
-#define ___T___ &as LSHFT T
-#define ___U___ &as LSHFT U
-#define ___V___ &as LSHFT V
-#define ___W___ &as LSHFT W
-#define ___X___ &as LSHFT X
-#define ___Y___ &as LSHFT Y
-#define ___Z___ &as LSHFT Z
+#define ___A___ &as LEFT_SHIFT A A
+#define ___B___ &as LEFT_SHIFT B B
+#define ___C___ &as LEFT_SHIFT C
+#define ___D___ &as LEFT_SHIFT D
+#define ___E___ &as LEFT_SHIFT E
+#define ___F___ &as LEFT_SHIFT F
+#define ___G___ &as LEFT_SHIFT G
+#define ___H___ &as LEFT_SHIFT H
+#define ___I___ &as LEFT_SHIFT I
+#define ___J___ &as LEFT_SHIFT J
+#define ___K___ &as LEFT_SHIFT K
+#define ___L___ &as LEFT_SHIFT L
+#define ___M___ &as LEFT_SHIFT M
+#define ___N___ &as LEFT_SHIFT N
+#define ___O___ &as LEFT_SHIFT O
+#define ___P___ &as LEFT_SHIFT P
+#define ___Q___ &as LEFT_SHIFT Q
+#define ___R___ &as LEFT_SHIFT R
+#define ___S___ &as LEFT_SHIFT S
+#define ___T___ &as LEFT_SHIFT T
+#define ___U___ &as LEFT_SHIFT U
+#define ___V___ &as LEFT_SHIFT V
+#define ___W___ &as LEFT_SHIFT W
+#define ___X___ &as LEFT_SHIFT X
+#define ___Y___ &as LEFT_SHIFT Y
+#define ___Z___ &as LEFT_SHIFT Z
 
 #define ___0___ &kp N0
 #define ___1___ &kp N1
