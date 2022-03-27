@@ -5,8 +5,10 @@
 #define _DOWN__ &kp DOWN
 #define _RIGHT_ &kp RIGHT
 
-#define ___A___ &as LS(A) A
-#define ___B___ &as LS(B) B
+#define AS(keycode) &as LS(keycode) keycode
+
+#define ___A___ AS(A)
+#define ___B___ AS(B)
 #define ___C___ &as LS(C) C
 #define ___D___ &as LS(D) D
 #define ___E___ &as LS(E) E
