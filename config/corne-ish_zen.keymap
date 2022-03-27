@@ -22,6 +22,20 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
+                modcp: mod_copy {
+                        compatible = "zmk,behavior-mod-morph";
+                        label = "MOD_COPY";
+                        #binding-cells = <0>;
+                        bindings = <___C___>, <MAC_COPY>;
+                        mods = <(MOD_LGUI | MOD_RGUI)>;
+                };
+                modpst: mod_paste {
+                        compatible = "zmk,behavior-mod-morph";
+                        label = "MOD_PASTE";
+                        #binding-cells = <0>;
+                        bindings = <___V___>, <MAC_PASTE>;
+                        mods = <(MOD_LGUI | MOD_RGUI)>;
+                };
         };
 
         keymap {
