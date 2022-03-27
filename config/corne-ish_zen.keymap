@@ -39,7 +39,7 @@
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
                         _LSHFT_ _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
-                                                  _LOWER_  _LGUI__  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                                                  _LOWER_  _LGUI__  &mt LGUI SPACE  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
