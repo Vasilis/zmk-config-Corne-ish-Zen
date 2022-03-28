@@ -22,16 +22,6 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
-
-                hdtap: hold_tap {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "HOLD_TAP";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <300>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
         };
 
         keymap {
@@ -48,8 +38,8 @@
                         bindings = <
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
-        &hdtap LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &hdtap RIGHT_SHIFT LG(V)
-                                        _LOWER_  &hdtap LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+           &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &as RIGHT_SHIFT LG(V)
+                                           _LOWER_  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
