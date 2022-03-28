@@ -23,28 +23,26 @@
                         bindings = <&kp>, <&kp>;
                 };
                 htcp: hold_tap_copy {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "HOLD_TAP_COPY";
-                        #binding-cells = <0>;
-                        tapping-term-ms = <210>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <MAC_COPY>, <_LGUI__>;
-                };
-                modcp: mod_copy {
                         compatible = "zmk,behavior-mod-morph";
                         label = "MOD_COPY";
                         #binding-cells = <0>;
-                        bindings = <&as LS(C) C>, <&kp C>;
-                        mods = <(MOD_LGUI | MOD_RGUI)>;
+                        bindings = <MAC_COPY>, <_LGUI__>;
+                        mods = <MOD_LGUI>;
                 };
-                modpst: mod_paste {
-                        compatible = "zmk,behavior-mod-morph";
-                        label = "MOD_PASTE";
-                        #binding-cells = <0>;
-                        bindings = <AS(V)>, <&kp V>;
-                        mods = <(MOD_LGUI | MOD_RGUI)>;
-                };
+                // modcp: mod_copy {
+                //         compatible = "zmk,behavior-mod-morph";
+                //         label = "MOD_COPY";
+                //         #binding-cells = <0>;
+                //         bindings = <&as LS(C) C>, <&kp C>;
+                //         mods = <(MOD_LGUI | MOD_RGUI)>;
+                // };
+                // modpst: mod_paste {
+                //         compatible = "zmk,behavior-mod-morph";
+                //         label = "MOD_PASTE";
+                //         #binding-cells = <0>;
+                //         bindings = <AS(V)>, <&kp V>;
+                //         mods = <(MOD_LGUI | MOD_RGUI)>;
+                // };
         };
 
         keymap {
