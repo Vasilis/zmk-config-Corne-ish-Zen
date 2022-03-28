@@ -23,7 +23,7 @@
                         bindings = <&kp>, <&kp>;
                 };
 
-                ht: hold_tap {
+                hdtap: hold_tap {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOLD_TAP";
                         #binding-cells = <2>;
@@ -48,8 +48,8 @@
                         bindings = <
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
-           &ht LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &ht RIGHT_SHIFT LG(V)
-                                           _LOWER_  &ht LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+        &hdtap LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &hdtap RIGHT_SHIFT LG(V)
+                                        _LOWER_  &hdtap LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
