@@ -22,20 +22,6 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
-                // modcp: mod_copy {
-                //         compatible = "zmk,behavior-mod-morph";
-                //         label = "MOD_COPY";
-                //         #binding-cells = <0>;
-                //         bindings = <&as LS(C) C>, <&kp C>;
-                //         mods = <(MOD_LGUI | MOD_RGUI)>;
-                // };
-                // modpst: mod_paste {
-                //         compatible = "zmk,behavior-mod-morph";
-                //         label = "MOD_PASTE";
-                //         #binding-cells = <0>;
-                //         bindings = <AS(V)>, <&kp V>;
-                //         mods = <(MOD_LGUI | MOD_RGUI)>;
-                // };
         };
 
         keymap {
@@ -47,13 +33,13 @@
                         // |  TAB |   Q  |   W  |   F  |   P  |   B  |     |   J  |   L  |   U  |   Y  |   ;  |  \   |
                         // |LCTRL |   A  |   R  |   S  |   T  |   G  |     |   M  |   N  |   E  |   I  |   O  |  '   |
                         // |LSHFT |   Z  |   X  |   C  |   D  |   V  |     |   K  |   H  |   ,  |   .  |   /  |RShift|
-                        //                      | LWR  |  GUI | SPC  |     | ENT  | BSPC |RAISE |
+                        //                      | LWR  |GUI/CP| SPC  |     | ENT  | BSPC |RAISE |
                         //                      ----------------------     ----------------------
                         bindings = <
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
-                        _LSHFT_ _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
-                                                &lt 1 LG(V)  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                        &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
+                                           _LOWER_  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
