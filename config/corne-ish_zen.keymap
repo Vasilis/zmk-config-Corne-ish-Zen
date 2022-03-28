@@ -26,14 +26,14 @@
                         compatible = "zmk,behavior-mod-morph";
                         label = "MOD_COPY";
                         #binding-cells = <0>;
-                        bindings = <___C___>, <MAC_COPY>;
+                        bindings = <AS(C)>, <&kp C>;
                         mods = <(MOD_LGUI | MOD_RGUI)>;
                 };
                 modpst: mod_paste {
                         compatible = "zmk,behavior-mod-morph";
                         label = "MOD_PASTE";
                         #binding-cells = <0>;
-                        bindings = <___V___>, <MAC_PASTE>;
+                        bindings = <AS(V)>, <&kp V>;
                         mods = <(MOD_LGUI | MOD_RGUI)>;
                 };
         };

@@ -9,7 +9,7 @@
 
 #define ___A___ AS(A)
 #define ___B___ AS(B)
-#define ___C___ AS(C)
+#define ___C___ &modcp
 #define ___D___ AS(D)
 #define ___E___ AS(E)
 #define ___F___ AS(F)
@@ -28,7 +28,7 @@
 #define ___S___ AS(S)
 #define ___T___ AS(T)
 #define ___U___ AS(U)
-#define ___V___ AS(V)
+#define ___V___ &modpst
 #define ___W___ AS(W)
 #define ___X___ AS(X)
 #define ___Y___ AS(Y)
