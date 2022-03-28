@@ -22,6 +22,16 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
+
+                ht: hold_tap {
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "HOLD_TAP";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <300>;
+                        quick-tap-ms = <0>;
+                        flavor = "tap-preferred";
+                        bindings = <&kp>, <&kp>;
+                };
         };
 
         keymap {
@@ -32,14 +42,14 @@
                         // -------------------------------------------     -------------------------------------------
                         // |  TAB |   Q  |   W  |   F  |   P  |   B  |     |   J  |   L  |   U  |   Y  |   ;  |  \   |
                         // |LCTRL |   A  |   R  |   S  |   T  |   G  |     |   M  |   N  |   E  |   I  |   O  |  '   |
-                        // |LSHFT |   Z  |   X  |   C  |   D  |   V  |     |   K  |   H  |   ,  |   .  |   /  |RShift|
+                        // |LSH/PS|   Z  |   X  |   C  |   D  |   V  |     |   K  |   H  |   ,  |   .  |   /  |RShift|
                         //                      | LWR  |GUI/CP| SPC  |     | ENT  | BSPC |RAISE |
                         //                      ----------------------     ----------------------
                         bindings = <
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
-                        &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
-                                           _LOWER_  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+           &ht LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &ht RIGHT_SHIFT LG(V)
+                                           _LOWER_  &ht LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
