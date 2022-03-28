@@ -26,7 +26,7 @@
                         compatible = "zmk,behavior-mod-morph";
                         label = "MOD_COPY";
                         #binding-cells = <0>;
-                        bindings = <MAC_COPY>, <_LGUI__>;
+                        bindings = <_LGUI__>, <MAC_COPY>;
                         mods = <MOD_LGUI>;
                 };
                 // modcp: mod_copy {
