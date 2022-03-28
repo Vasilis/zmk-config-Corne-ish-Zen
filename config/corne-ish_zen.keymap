@@ -27,7 +27,7 @@
                         label = "MOD_COPY";
                         #binding-cells = <0>;
                         //bindings = <&as LS(C) C>, <&kp C>;
-                        bindings = <&kp C>, <&as LS(C) C>;
+                        bindings = <&kp C>, <&as C LS(C)>;
                         mods = <(MOD_LGUI | MOD_RGUI)>;
                 };
                 modpst: mod_paste {
