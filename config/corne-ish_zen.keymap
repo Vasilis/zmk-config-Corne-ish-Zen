@@ -53,7 +53,7 @@
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
                         _LSHFT_ _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
-                                    &as (&mo 1) LG(V)  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                                                &lt 1 LG(V)  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
