@@ -25,7 +25,7 @@
                 htcp: hold_tap_copy {
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOLD_TAP_COPY";
-                        #binding-cells = <2>;
+                        #binding-cells = <0>;
                         tapping-term-ms = <210>;
                         quick-tap-ms = <0>;
                         flavor = "tap-preferred";
