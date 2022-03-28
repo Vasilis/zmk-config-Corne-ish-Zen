@@ -22,15 +22,6 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
-                htcp: hold_tap_copy {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "MOD_COPY";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <210>;
-                        quick-tap-ms = <0>;
-                        flavor = "tap-preferred";
-                        bindings = <&kp>, <&kp>;
-                };
                 // modcp: mod_copy {
                 //         compatible = "zmk,behavior-mod-morph";
                 //         label = "MOD_COPY";
@@ -62,7 +53,7 @@
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
                         _LSHFT_ _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ _RSHFT_
-                                                  _LOWER_  &htcp _LGUI__ MAC_COPY  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                                                  _LOWER_  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
