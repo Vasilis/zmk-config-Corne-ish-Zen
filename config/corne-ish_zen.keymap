@@ -31,7 +31,7 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOLD_TAP";
                         #binding-cells = <2>;
-                        tapping-term-ms = <130>;
+                        tapping-term-ms = <160>;
                         quick-tap-ms = <0>;
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
@@ -81,7 +81,7 @@
                         // |  TAB |  !   |  @   |  #   |  $   |  %   |     |  ^   |  &   |  *   |  (   |  )   |     |
                         // |LCTRL |      |      |      |      |      |     |      | left |  up  | down |right |     |
                         // |LSHFT |      |      | MUTE |VOLUP |VOLDN |     |  =   |  -   |      |  [   |  ]   |     |
-                        // `-----------------------------------------/     \-----------------------------------------'
+                        // `-----------------------------------------/     \----------------------------------------'
                         //                      |      |  GUI | SPC  |     | ENT  | BSPC |      |
                         //                      ----------------------     ----------------------
                         bindings = <
