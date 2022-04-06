@@ -26,7 +26,7 @@
 
 #define _________________LOWER_R1__________________         ________________NUMBER_RIGHT_______________
 #define _________________LOWER_R2__________________         _________________FUNC_RIGHT________________
-#define _________________LOWER_R3__________________         _EQUAL_  _PLUS__ &kp LEFT_BRACE &kp RIGHT_BRACE _PIPE__
+#define _________________LOWER_R3__________________         _EQUAL_  _PLUS__ _PIPE__ &kp LEFT_BRACE &kp RIGHT_BRACE
 
 #define _________________RAISE_L1__________________         _________________SYM_LEFT__________________
 #define _________________RAISE_L2__________________         ___________________BLANK___________________
@@ -34,6 +34,6 @@
 
 #define _________________RAISE_R1__________________         _________________SYM_RIGHT_________________
 #define _________________RAISE_R2__________________         _______ _LEFT__  __UP___  _DOWN__ _RIGHT_
-#define _________________RAISE_R3__________________         &kp UNDER _MINUS_  &kp LEFT_BRACKET &kp RIGHT_BRACKET _______
+#define _________________RAISE_R3__________________         &kp UNDER _MINUS_ _______  &kp LEFT_BRACKET &kp RIGHT_BRACKET
 
 // clang-format on
