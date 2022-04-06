@@ -14,6 +14,7 @@
 / {
         &sl {
                 release-after-ms = <2000>;
+                quick-release;
         };
 
         behaviors {
@@ -22,6 +23,15 @@
                         label = "AUTO_SHIFT";
                         #binding-cells = <2>;
                         tapping-term-ms = <230>;
+                        quick-tap-ms = <0>;
+                        flavor = "tap-preferred";
+                        bindings = <&kp>, <&kp>;
+                };
+                tcmd: tap_cmd {
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "TAP_CMD";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <130>;
                         quick-tap-ms = <0>;
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
@@ -53,7 +63,7 @@
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
            &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &as RIGHT_SHIFT LG(V)
-                                           _LOWER_  &as LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                                           _LOWER_  &tcmd LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
@@ -62,7 +72,7 @@
                         // -------------------------------------------     -------------------------------------------
                         // |ESC   |  F1  |  F2  |  F3  |  F4  |  F5  |     |  F6  |  F7  |  F8  |  F9  | F10  |  `   |
                         // |LCTRL |   1  |   2  |   3  |   4  |   5  |     |   6  |   7  |   8  |   9  |   0  |  "   |
-                        // |LSHFT |      |      |      |      |      |     |  =   |  +   | "|"  |   {  |   }  |  ~   |
+                        // |LSHFT |      |      |      |      |      |     |  -   |  +   | "|"  |   {  |   }  |  ~   |
                         // `-----------------------------------------/     \-----------------------------------------'
                         //                      |      |  GUI | SPC  |     | ENT  | DEL  |      |
                         //                      ----------------------     ----------------------
@@ -79,7 +89,7 @@
                         // -------------------------------------------     ------------------------------------------
                         // |  TAB |  !   |  @   |  #   |  $   |  %   |     |  ^   |  &   |  *   |  (   |  )   |     |
                         // |LCTRL |      |      |      |      |      |     |      | left |  up  | down |right |     |
-                        // |LSHFT |      |      | MUTE |VOLUP |VOLDN |     |  _   |  -   |      |  [   |  ]   |     |
+                        // |LSHFT |      |      | MUTE |VOLUP |VOLDN |     |  _   |  =   |      |  [   |  ]   |     |
                         // `-----------------------------------------/     \-----------------------------------------'
                         //                      |      |  GUI | SPC  |     | ENT  | BSPC |      |
                         //                      ----------------------     ----------------------
