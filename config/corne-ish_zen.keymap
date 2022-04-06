@@ -11,12 +11,12 @@
 #include "keycodes.h"
 #include "wrappers.h"
 
-/ {
-        // &sl {
-        //         release-after-ms = <2000>;
-        //         quick-release;
-        // };
+&sl {
+        release-after-ms = <2000>;
+        quick-release;
+};
 
+/ {
         behaviors {
                 as: auto_shift {
                         compatible = "zmk,behavior-hold-tap";
@@ -63,7 +63,7 @@
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
            &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &as RIGHT_SHIFT LG(V)
-                                         _LOWER_  &tcmd LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+                                           _LOWER_  &tcmd LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
