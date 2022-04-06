@@ -12,10 +12,10 @@
 #include "wrappers.h"
 
 / {
-        &sl {
-                release-after-ms = <2000>;
-                quick-release;
-        };
+        // &sl {
+        //         release-after-ms = <2000>;
+        //         quick-release;
+        // };
 
         behaviors {
                 as: auto_shift {
