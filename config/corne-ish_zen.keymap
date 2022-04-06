@@ -27,9 +27,9 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
-                tcmd: tap_cmd {
+                hld: tap_cmd {
                         compatible = "zmk,behavior-hold-tap";
-                        label = "TAP_CMD";
+                        label = "HOLD_TAP";
                         #binding-cells = <2>;
                         tapping-term-ms = <130>;
                         quick-tap-ms = <0>;
@@ -62,8 +62,8 @@
                         bindings = <
                         __TAB__ _________________COLEMAK_L1________________  _________________COLEMAK_R1________________ _BSLH__
                         _LCTRL_ _________________COLEMAK_L2________________  _________________COLEMAK_R2________________ _SQUOT_
-           &as LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &as RIGHT_SHIFT LG(V)
-                                           _LOWER_  &tcmd LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
+          &hld LEFT_SHIFT LG(V) _________________COLEMAK_L3________________  _________________COLEMAK_R3________________ &hld RIGHT_SHIFT LG(V)
+                                          _LOWER_  &hld LGUI LG(C)  _SPACE_  _ENTER_  _BKSPC_  _RAISE_
                         >;
                 };
 
