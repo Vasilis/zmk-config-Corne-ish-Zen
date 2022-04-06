@@ -56,7 +56,7 @@
 #define __DEL__ &kp DELETE
 #define __ESC__ &kp ESC
 #define _LGUI__ &kp LGUI
-#define _LOWER_ &sl 1
+#define _LOWER_ &mo 1
 #define _RAISE_ &mo 2
 
 #define _LSHFT_ &sk LEFT_SHIFT
