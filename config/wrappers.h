@@ -29,7 +29,7 @@
 #define _________________LOWER_R3__________________         _PLUS__ &kp UNDER _PIPE__ &kp LEFT_BRACE &kp RIGHT_BRACE
 
 #define _________________RAISE_L1__________________         _________________SYM_LEFT__________________
-#define _________________RAISE_L2__________________         ___________________BLANK___________________
+#define _________________RAISE_L2__________________         _______ _______ &kp C_PLAY_PAUSE &kp C_PREV &kp C_NEXT
 #define _________________RAISE_L3__________________         _BTCLR_ _______ &kp K_MUTE &kp C_VOL_DN &kp C_VOLUME_UP
 
 #define _________________RAISE_R1__________________         _________________SYM_RIGHT_________________
